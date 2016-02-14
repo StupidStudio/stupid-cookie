@@ -1,0 +1,22 @@
+{
+  "name": "stupid-cookie",
+  "version": "0.0.0",
+  "description": "",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adalberth/stupid-cookie.git"
+  },
+  "author": "David Adalberth Andersen <david@stupid-studio.com> (http://stupid-studio.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adalberth/stupid-cookie/issues"
+  },
+  "homepage": "https://github.com/adalberth/stupid-cookie#readme",
+  "dependencies": {
+    "stupid-singleton": "^1.0.0"
+  }
+}
