@@ -6,7 +6,8 @@ function Cookie(){
     function setCookie(cname,cvalue,exdays,path) {
         var d = new Date();
         var path = path || "/";
-        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var days = exdays || 1;
+        d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
         var expires = "expires=" + d.toGMTString();
         document.cookie = cname+"="+cvalue+"; "+expires+"; "+"path="+path;
     }
